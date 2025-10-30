@@ -1,7 +1,5 @@
 <?php
 
-// app/Models/Pengurus.php
-
 namespace App\Models\API;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -11,6 +9,8 @@ use Illuminate\Support\Facades\Storage;
 class Pengurus extends Model
 {
     use HasFactory;
+
+    protected $table = 'pengurus';
 
     protected $fillable = [
         'nama',

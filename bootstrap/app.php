@@ -16,6 +16,10 @@ return Application::configure(basePath: dirname(__DIR__))
             'role.admin' => \App\Http\Middleware\IsAdmin::class,
             'role.superadmin' => \App\Http\Middleware\IsSuperAdmin::class,
         ]);
+
+        $middleware->api(append: [
+            \Illuminate\Http\Middleware\HandleCors::class,
+        ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //

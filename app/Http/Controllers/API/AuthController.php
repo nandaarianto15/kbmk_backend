@@ -13,8 +13,8 @@ use Illuminate\Support\Facades\Validator;
  *     schema="User",
  *     required={"username", "email", "password", "roles"},
  *     @OA\Property(property="id", type="integer", example=1),
- *     @OA\Property(property="username", type="string", maxLength=50, example="johndoe"),
- *     @OA\Property(property="email", type="string", format="email", example="johndoe@example.com"),
+ *     @OA\Property(property="username", type="string", maxLength=50, example="nandaarianto"),
+ *     @OA\Property(property="email", type="string", format="email", example="nandaarianto@example.com"),
  *     @OA\Property(property="roles", type="string", enum={"admin", "superadmin"}, example="admin"),
  *     @OA\Property(property="created_at", type="string", format="date-time"),
  *     @OA\Property(property="updated_at", type="string", format="date-time")
@@ -32,8 +32,8 @@ class AuthController extends Controller
      *         required=true,
      *         @OA\JsonContent(
      *             required={"username", "email", "password", "password_confirmation", "roles"},
-     *             @OA\Property(property="username", type="string", maxLength=50, example="johndoe"),
-     *             @OA\Property(property="email", type="string", format="email", example="johndoe@example.com"),
+     *             @OA\Property(property="username", type="string", maxLength=50, example="nandaarianto"),
+     *             @OA\Property(property="email", type="string", format="email", example="nandaarianto@example.com"),
      *             @OA\Property(property="password", type="string", minLength=6, example="password123"),
      *             @OA\Property(property="password_confirmation", type="string", example="password123"),
      *             @OA\Property(property="roles", type="string", enum={"admin", "superadmin"}, example="admin")
@@ -96,7 +96,7 @@ class AuthController extends Controller
      *         required=true,
      *         @OA\JsonContent(
      *             required={"email", "password"},
-     *             @OA\Property(property="email", type="string", format="email", example="johndoe@example.com"),
+     *             @OA\Property(property="email", type="string", format="email", example="nandaarianto@example.com"),
      *             @OA\Property(property="password", type="string", example="password123")
      *         )
      *     ),

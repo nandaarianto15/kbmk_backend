@@ -10,8 +10,7 @@ info:
   version: 1.0.0
 servers:
   -
-    url: 'http://my-default-host.com'
-    description: 'API Server'
+    url: /api
 paths:
   /register:
     post:
@@ -35,11 +34,11 @@ paths:
                 username:
                   type: string
                   maxLength: 50
-                  example: johndoe
+                  example: nandaarianto
                 email:
                   type: string
                   format: email
-                  example: johndoe@example.com
+                  example: nandaarianto@example.com
                 password:
                   type: string
                   minLength: 6
@@ -97,7 +96,7 @@ paths:
                 email:
                   type: string
                   format: email
-                  example: johndoe@example.com
+                  example: nandaarianto@example.com
                 password:
                   type: string
                   example: password123
@@ -859,11 +858,11 @@ components:
         username:
           type: string
           maxLength: 50
-          example: johndoe
+          example: nandaarianto
         email:
           type: string
           format: email
-          example: johndoe@example.com
+          example: nandaarianto@example.com
         roles:
           type: string
           enum:

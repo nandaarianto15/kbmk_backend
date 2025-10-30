@@ -14,8 +14,7 @@
     },
     "servers": [
         {
-            "url": "http://my-default-host.com",
-            "description": "API Server"
+            "url": "/api"
         }
     ],
     "paths": {
@@ -43,12 +42,12 @@
                                     "username": {
                                         "type": "string",
                                         "maxLength": 50,
-                                        "example": "johndoe"
+                                        "example": "nandaarianto"
                                     },
                                     "email": {
                                         "type": "string",
                                         "format": "email",
-                                        "example": "johndoe@example.com"
+                                        "example": "nandaarianto@example.com"
                                     },
                                     "password": {
                                         "type": "string",
@@ -133,7 +132,7 @@
                                     "email": {
                                         "type": "string",
                                         "format": "email",
-                                        "example": "johndoe@example.com"
+                                        "example": "nandaarianto@example.com"
                                     },
                                     "password": {
                                         "type": "string",
@@ -1303,12 +1302,12 @@
                     "username": {
                         "type": "string",
                         "maxLength": 50,
-                        "example": "johndoe"
+                        "example": "nandaarianto"
                     },
                     "email": {
                         "type": "string",
                         "format": "email",
-                        "example": "johndoe@example.com"
+                        "example": "nandaarianto@example.com"
                     },
                     "roles": {
                         "type": "string",
